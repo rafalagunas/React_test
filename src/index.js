@@ -26,7 +26,6 @@ class App extends React.Component {
     this.setState({empty: false});
 
   }
-
   else{
     alert('No name was submitted');
     this.setState({empty: true});
